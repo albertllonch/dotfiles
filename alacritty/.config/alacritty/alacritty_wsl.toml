@@ -1,0 +1,10 @@
+[general]
+import = [
+  "~\\dotfiles\\alacritty\\common.toml"
+]
+
+[terminal]
+
+[terminal.shell]
+program = "C:\\Windows\\System32\\wsl.exe -d Debian --cd /home/albertllonch"
+
