@@ -1,10 +1,6 @@
-[general]
-import = [
-  "~\\dotfiles\\alacritty\\common.toml"
-]
-
-[terminal]
-
+[env]
+RUST_LOG = "debug"
 [terminal.shell]
-program = "C:\\Windows\\System32\\wsl.exe -d Debian --cd /home/albertllonch"
+program = "cmd.exe"
+args = ["/c","wsl", "-d","Debian"]
 
