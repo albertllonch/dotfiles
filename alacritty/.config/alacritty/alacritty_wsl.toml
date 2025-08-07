@@ -1,6 +1,0 @@
-[env]
-RUST_LOG = "debug"
-[terminal.shell]
-program = "cmd.exe"
-args = ["/c","wsl", "-d","Debian"]
-
