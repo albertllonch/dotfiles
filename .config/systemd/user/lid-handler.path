@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch laptop lid state
+
+[Path]
+PathChanged=/proc/acpi/button/lid/LID0/state
+
+[Install]
+WantedBy=default.target
