@@ -11,7 +11,7 @@ source ~/.local/share/omarchy/default/bash/rc
 # alias p='python'
 
 alias ll='ls -a'
+alias vim='nvim'
 
-# Dotfiles git bare command
 # Dotfiles git bare command
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
