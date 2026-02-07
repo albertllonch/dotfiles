@@ -45,5 +45,11 @@ keybind = alt+7=goto_tab:7
 keybind = alt+8=goto_tab:8
 keybind = alt+9=goto_tab:9
 
+# Close tab keybind
+keybind = ctrl+shift+w=close_surface
+
+# Bottom tab positioning
+gtk-tabs-location = bottom
+
 # Slowdown mouse scrolling
 mouse-scroll-multiplier = 0.95

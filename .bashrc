@@ -15,3 +15,13 @@ alias vim='nvim'
 
 # Dotfiles git bare command
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# XDG Base Directory Specification
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+
+# opencode
+export PATH=/home/albert/.opencode/bin:$PATH
+export XCOMPOSEFILE="$XDG_CONFIG_HOME/x11/XCompose"
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
